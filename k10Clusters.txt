@@ -1,0 +1,94 @@
+Cluster 1:
+['SportsCenter', 'espn', 'NBA', 'PlayStation', 'CBS']
+Cluster 2:
+['BBCBreaking',
+ 'BreakingNews',
+ 'NPR',
+ 'MSNBC',
+ 'SkyNews',
+ 'DailyMirror',
+ 'Entrepreneur',
+ 'Inc',
+ 'NBCNews']
+Cluster 3:
+['Harry_Styles', 'MLB', 'LindseyGrahamSC']
+Cluster 4:
+['kourtneykardash',
+ 'Halo',
+ 'TheSun',
+ 'EW',
+ 'TODAYshow',
+ 'GMA',
+ 'enews',
+ 'people',
+ 'TMZ',
+ 'usweekly',
+ 'Variety',
+ 'billboard',
+ 'DEADLINE',
+ 'voguemagazine',
+ 'glamourmag',
+ 'InStyle',
+ 'wwd']
+Cluster 5:
+['BarackObama',
+ 'katyperry',
+ 'rihanna',
+ 'TheEllenShow',
+ 'KingJames',
+ 'KevinHart4real',
+ 'KylieJenner',
+ 'NICKIMINAJ',
+ 'NFL',
+ 'FOXTV']
+Cluster 6:
+['Reuters', 'guardian', 'nbc', 'HBO', 'Marvel', 'RollingStone']
+Cluster 7:
+['scrowder', 'WIRED']
+Cluster 8:
+['Xbox',
+ 'IGN',
+ 'GameSpot',
+ 'pcgamer',
+ 'Polygon',
+ 'THR',
+ 'GameStop',
+ 'GamesRadar',
+ 'gameinformer',
+ 'engadgetgaming']
+Cluster 9:
+['BreitbartNews',
+ 'realDonaldTrump',
+ 'cnnbrk',
+ 'CNN',
+ 'BBCWorld',
+ 'TheEconomist',
+ 'NatGeo',
+ 'JoeBiden',
+ 'KamalaHarris',
+ 'FoxNews',
+ 'RealJamesWoods',
+ 'AP',
+ 'washingtonpost',
+ 'Forbes',
+ 'businessinsider',
+ 'USATODAY',
+ 'CNBC',
+ 'business',
+ 'WSJ',
+ 'CBSNews',
+ 'Independent',
+ 'NewYorker',
+ 'HuffPost',
+ 'TIME',
+ 'FortuneMagazine',
+ 'HarvardBiz',
+ 'latimes',
+ 'TheView',
+ 'VanityFair',
+ 'NYMag',
+ 'newsmax',
+ 'DailyCaller',
+ 'seanhannity']
+Cluster 10:
+['NASA', 'LiamPayne', 'WNBA', 'MTV', 'starwars']

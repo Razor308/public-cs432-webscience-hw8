@@ -1,0 +1,6 @@
+k=5
+5 iterations
+k=10
+5 iterations
+k=20
+4 iterations

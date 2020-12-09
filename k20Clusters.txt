@@ -1,0 +1,93 @@
+Cluster 1:
+['washingtonpost', 'MSNBC', 'HuffPost', 'newsmax', 'NBCNews']
+Cluster 2:
+['Entrepreneur', 'Inc']
+Cluster 3:
+['BreitbartNews',
+ 'CNN',
+ 'USATODAY',
+ 'BreakingNews',
+ 'WSJ',
+ 'SkyNews',
+ 'latimes']
+Cluster 4:
+['cnnbrk',
+ 'FoxNews',
+ 'AP',
+ 'business',
+ 'CBSNews',
+ 'Independent',
+ 'TheView',
+ 'DailyCaller']
+Cluster 5:
+['NASA',
+ 'NatGeo',
+ 'WIRED',
+ 'EW',
+ 'GMA',
+ 'enews',
+ 'people',
+ 'TMZ',
+ 'usweekly',
+ 'Variety',
+ 'starwars',
+ 'DEADLINE']
+Cluster 6:
+['TheEconomist', 'Reuters', 'CNBC', 'NPR']
+Cluster 7:
+['KylieJenner', 'kourtneykardash', 'Marvel', 'wwd']
+Cluster 8:
+['KevinHart4real', 'LiamPayne', 'NICKIMINAJ']
+Cluster 9:
+['SportsCenter', 'espn', 'NFL']
+Cluster 10:
+['realDonaldTrump',
+ 'RealJamesWoods',
+ 'Forbes',
+ 'businessinsider',
+ 'DailyMirror',
+ 'TIME',
+ 'FortuneMagazine',
+ 'HarvardBiz',
+ 'VanityFair']
+Cluster 11:
+['NBA', 'nbc', 'MTV', 'HBO']
+Cluster 12:
+['billboard']
+Cluster 13:
+['pcgamer', 'seanhannity']
+Cluster 14:
+['Halo', 'MLB', 'RollingStone']
+Cluster 15:
+['NewYorker', 'CBS', 'TODAYshow', 'NYMag']
+Cluster 16:
+['BBCBreaking',
+ 'BBCWorld',
+ 'guardian',
+ 'TheSun',
+ 'THR',
+ 'voguemagazine',
+ 'glamourmag',
+ 'InStyle']
+Cluster 17:
+['Xbox',
+ 'PlayStation',
+ 'IGN',
+ 'GameSpot',
+ 'Polygon',
+ 'GameStop',
+ 'GamesRadar',
+ 'gameinformer',
+ 'engadgetgaming']
+Cluster 18:
+['WNBA']
+Cluster 19:
+['rihanna', 'KingJames', 'Harry_Styles', 'FOXTV']
+Cluster 20:
+['BarackObama',
+ 'katyperry',
+ 'TheEllenShow',
+ 'JoeBiden',
+ 'KamalaHarris',
+ 'scrowder',
+ 'LindseyGrahamSC']

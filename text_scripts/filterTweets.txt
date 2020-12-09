@@ -1,0 +1,38 @@
+import json
+import re
+import sys
+
+tweets = open("tweets.json", "r")
+
+data = json.load(tweets)
+uris = re.compile('http[s]?:\/\/(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+')
+accountNames = re.compile('[@]+[A-Za-z0-9-_]+')
+punctuation = re.compile('[^\w\s]')
+smallTerms = re.compile(r'\W*\b\w{1,3}\b')
+largeTerms = re.compile(r'\W*\b\w{15,}\b')
+
+tweet_data = []
+
+for tweet in data[0:2]:
+    tweet_dict = {}
+    tweet_dict["username"] = tweet["username"]
+    tweet_dict["tweetId"] = tweet["tweetId"]
+
+    text = tweet["tweetText"]
+    text = re.sub(uris, "", text)
+    text = re.sub(accountNames, "", text)
+    
+    if any(ord(char) >= 128 for char in text):
+            text = text.encode("ascii", "ignore")
+            text = text.decode()
+    
+    text = re.sub(punctuation, "", text)
+    text = re.sub(smallTerms, "", text)
+    text = re.sub(largeTerms, "", text)
+    text = text.lower()
+
+    tweet_dict["tweetText"] = text
+    tweet_data.append(tweet_dict)
+
+json.dump(tweet_data, sys.stdout, indent=2)
+tweets.close()

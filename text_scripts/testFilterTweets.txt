@@ -1,0 +1,24 @@
+import json
+import re
+import sys
+
+tweets = open("tweets.json", "r")
+
+data = json.load(tweets)
+uri = re.compile('http[s]?:\/\/(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+')
+
+tweet_data = []
+
+for tweet in data[0:2]:
+    tweet_dict = {}
+    tweet_dict["username"] = tweet["username"]
+    tweet_dict["tweetId"] = tweet["tweetId"]
+    text = tweet["tweetText"]
+    uriMatch = uri.search(text)
+    if (uriMatch != None):
+        text = text.replace(uriMatch[0], "")
+        tweet_dict["tweetText"] = text
+        tweet_data.append(tweet_dict)
+
+json.dump(tweet_data, sys.stdout, indent=2)
+tweets.close()
