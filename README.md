@@ -1,3 +1,6 @@
+# Below is an assignment for ODU's CS432 Web Science Course.
+# The completed report written in LaTeX can be veiwed [here](HW8_report.pdf)
+
 # Homework 8 - Clustering
 **Due:** Sunday, December 6, 2020 by 11:59pm
 
